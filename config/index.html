@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Snail Panel - Config</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="myLeftnav" class="leftnav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="index.html" class="active">Config</a>
+        <a href="../data/index.html">Data</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <h1>.env File Config</h1>
+    <h2>Path</h2>
+    <input type="text" id="configInput" oninput="getConfig(this.value)" placeholder="Enter path to .env (e.g. C:\snail-bridge\.env)">
+    <h3>Config File Contents</h3>
+    <h6>You can edit the text here to edit the config file!</h6>
+    <textarea id="config" placeholder="Config file data will go here"></textarea>
+</body>
+
+</html>
