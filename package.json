@@ -1,0 +1,12 @@
+{
+  "name": "snail-panel",
+  "version": "1.0.0",
+  "main": "index.html",
+  "window": {
+    "frame": true,
+    "toolbar": false,
+    "width": 800,
+    "height": 600,
+    "icon": "favicon.png"
+  }
+}
